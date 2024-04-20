@@ -1,0 +1,27 @@
+.screen-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.screen-container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;    
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    /*background-color: rgba(255, 217, 0, 0.521);*/
+}
+
+.pokemon-container {
+    width: 99%;
+    height: 99%;
+    border: 1px solid black;
+}
+
+.pokemon-img {
+    width: 76%;
+}

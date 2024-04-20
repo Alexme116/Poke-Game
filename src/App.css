@@ -1,0 +1,214 @@
+body {
+  background: radial-gradient(circle, rgb(255, 221, 183) 35%, rgb(255, 202, 176) 100%);
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.layout-game {
+  width: 400px;
+  height: 500px;
+  border: 5px solid black;
+  border-radius: 5% 5% 17% 5%;
+  background-color: rgb(173, 173, 173);
+}
+
+.container-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.screen-layout {
+  width: 350px;
+  height: 200px;
+  border: 5px solid black;
+  border-radius: 3%;
+  background-color: white;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 3%;
+}
+
+.container-select {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 3%;
+}
+
+.container-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  height: 60px;
+  margin: 40px 3% 3% 3%;  
+  transform: rotate(-45deg);
+  text-align: center;
+}
+
+.button-a {
+  width: 30px;
+  height: 30px;
+  background-color: #74041E;
+  border: 3px solid rgba(0, 0, 0, 0.603);
+  border-radius: 100%;
+}
+
+.button-b {
+  width: 30px;
+  height: 30px;
+  background-color: #74041E;
+  border: 3px solid rgba(0, 0, 0, 0.603);
+  border-radius: 100%;
+}
+
+.button-a:hover {
+  cursor: pointer;
+  border: 3px solid rgb(73, 73, 73);
+}
+
+.button-b:hover {
+  cursor: pointer;
+  border: 3px solid rgb(73, 73, 73);
+}
+
+.button-a-container p {
+  margin: 5px 0 0 0;
+}
+
+.button-b-container p {
+  margin: 5px 0 0 0;
+}
+
+.container-select {
+  display: flex;
+  justify-content: space-between;
+  transform: rotate(-35deg);
+  height: 70px;
+  width: 20%;
+  margin-top: 150px;
+}
+
+.button-start-container {
+  margin-top: 30px;
+}
+
+.button-start-container p {
+  margin-top: 0;
+}
+
+.button-select-container p {
+  margin-top: 0;
+}
+
+.button-select {
+  width: 30px;
+  height: 10px;
+  background-color: #5a5a5a;
+  border-radius: 20%;
+}
+
+.button-start {
+  width: 30px;
+  height: 10px;
+  background-color: #5a5a5a;
+  border-radius: 20%;
+}
+
+.button-select:hover {
+  cursor: pointer;
+  background-color: #5a5a5a;
+}
+
+.button-start:hover {
+  cursor: pointer;
+  background-color: #5a5a5a;
+}
+
+.container-updown-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.up-pad {
+  background-color: rgb(51, 51, 51);
+  width: 25px;
+  height: 35px;
+  border: 2px solid rgb(105, 105, 105);
+}
+
+.down-pad {
+  background-color: rgb(51, 51, 51);
+  width: 25px;
+  height: 35px;
+  border: 2px solid rgb(105, 105, 105);
+  border-top: none;
+}
+
+.right-pad {
+  background-color: rgb(51, 51, 51);
+  width: 25px;
+  height: 25px;
+  border: 2px solid rgb(105, 105, 105);
+  border-left: none;
+}
+
+.left-pad {
+  background-color: rgb(51, 51, 51);
+  width: 25px;
+  height: 25px;
+  border: 2px solid rgb(105, 105, 105);
+  border-right: none;
+}
+
+.up-pad:hover {
+  cursor: pointer;
+  border-color: #cacaca;
+  border-bottom-color: rgb(105, 105, 105);
+}
+
+.down-pad:hover {
+  cursor: pointer;
+  border-color: #cacaca;
+}
+
+.right-pad:hover {
+  cursor: pointer;
+  border-color: #cacaca;
+}
+
+.left-pad:hover {
+  cursor: pointer;
+  border-color: #cacaca;
+}
+
+.word {
+  cursor: default;
+}
+
+@media (max-width: 800px) {
+  .layout-game {
+    transform: scale(0.85);
+    margin-top: -25px;
+  }
+}

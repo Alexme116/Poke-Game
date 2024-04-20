@@ -1,0 +1,67 @@
+@import url('https://fonts.cdnfonts.com/css/games');
+
+.fight-container {
+    height: 100%;
+    background-image: url(https://i.pinimg.com/736x/43/e7/89/43e78957ab636946acf0498862b67c11.jpg);
+    background-size: 100%;
+    background-position: 0 -8px;
+}
+
+.players-divition {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    color: white;
+}
+
+.name-character-divition-player {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+
+.name-character-divition-enemy {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    text-align: right;
+}
+
+.name-health-player {
+    margin: 0 0 0 15px;
+}
+
+.name-health-enemy {
+    margin: 0 15px 15px 0;
+}
+
+.contenedor-img {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+
+.img-player {
+    width: 70%;
+    margin: 15px 0 -10px 0px;
+}
+
+.img-enemy {
+    width: 60%;
+    align-self: center;
+    margin-left: 15px;
+}
+
+.text-character {
+    font-size: 17px;
+    margin: 0;
+    font-family: 'Games', sans-serif;
+    color: rgb(255, 118, 54);
+}
+
+.text-character a {
+    color: rgb(181, 54, 255);
+}
